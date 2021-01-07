@@ -1,19 +1,17 @@
-h1, p {
-
+h1, p, ol {
+  color:#eeeeee;
   font-style: normal;
 }
 
 h1 {
     font-family: source-han-serif-sc, serif;
-    color:#111111;
     text-align: center;
     font-weight: 900;
     font-size: 3em;
 }
 
-p {
+p,ol {
     font-family: source-han-serif-sc, serif;
-    color:#333333;
     font-weight: 500;
     font-size: 1.5em;
 }
@@ -22,4 +20,11 @@ strong {
   font-weight: 900;
 }
 
-.tab { text-indent: 3em; }
+.tab { text-indent: 2em; }
+
+body {
+  background: #333333;
+  margin-bottom: 2rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
