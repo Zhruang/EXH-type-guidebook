@@ -1,4 +1,4 @@
-h1, h2, h3, p, ol {
+h1, h2, h3, h6, p, ol {
   color:#eeeeee;
   font-style: normal;
   font-family: source-han-serif-sc, serif;
@@ -11,7 +11,7 @@ h1 {
 }
 
 h2, ol {
-    font-weight: 700;
+    font-weight: 900;
     font-size: 2rem;
 }
 
@@ -21,9 +21,13 @@ h3, p {
     line-height: 1.5;
 }
 
+h6 {
+    font-size: 1rem;
+    font-weight: 400;
+}
 strong {
-  font-family: source-han-sans-simplified-c, sans-serif;
-  font-weight: 700;
+  font-family: source-han-serif-sc, serif;
+  font-weight: 900;
 }
 
 .tab { text-indent: 3em; }
