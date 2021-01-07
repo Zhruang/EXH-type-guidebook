@@ -4,7 +4,7 @@ h1, p {
 }
 
 h1 {
-    font-family: le-monde-livre-std, source-han-serif-sc, serif;
+    font-family: source-han-serif-sc, serif;
     color:#111111;
     text-align: center;
     font-weight: 900;
@@ -12,9 +12,9 @@ h1 {
 }
 
 p {
-    font-family: trade-gothic-next, sanssource-han-sans-simplified-c, sans-serif;
+    font-family: source-han-serif-sc, serif;
     color:#333333;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.5em;
 }
 
