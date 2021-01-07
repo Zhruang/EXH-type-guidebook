@@ -1,17 +1,19 @@
+h1, p {
+  font-family: source-han-serif-sc, serif;
+  font-style: normal;
+}
 
 h1 {
-    font-family: source-han-serif-sc, serif;
-    color:#334433;
+    color:#111111;
     text-align: center;
     font-weight: 900;
-    font-style: normal;
+    font-size: 3em;
 }
 
 p {
-    font-family: source-han-serif-sc, serif;
-    color:#223344;
+    color:#333333;
     font-weight: 500;
-    font-style: normal;
+    font-size: 1.5em;
 }
 
 strong {
