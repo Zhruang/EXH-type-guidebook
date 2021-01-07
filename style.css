@@ -13,3 +13,7 @@ p {
     font-weight: 500;
     font-style: normal;
 }
+
+strong {
+  font-weight: 900;
+}
