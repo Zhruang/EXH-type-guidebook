@@ -1,5 +1,6 @@
 body {
   background: #222222;
+  max-width: 80%
   margin-bottom: 7.5rem;
   margin-right: 6rem;
   margin-left: 6rem;
@@ -16,6 +17,7 @@ h1 {
     font-weight: 900;
     font-size: 3rem;
     line-height: 1;
+    text-align: center;
 }
 
 h2, ol {
@@ -33,6 +35,10 @@ p {
     text-indent: 3rem;
     margin-top: : 0;
     margin-bottom: 0;
+}
+
+h6 {
+    text-align: center;
 }
 strong {
   font-family: source-han-serif-sc, serif;
