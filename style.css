@@ -1,4 +1,4 @@
-h1, h2, p, ol {
+h1, h2, h3, p, ol {
   color:#eeeeee;
   font-style: normal;
   font-family: source-han-serif-sc, serif;
@@ -15,20 +15,21 @@ h2, ol {
     font-size: 2rem;
 }
 
-p {
+h3, p {
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 1.5;
 }
 
 strong {
+  font-family: source-han-sans-simplified-c, sans-serif;
   font-weight: 700;
 }
 
-.tab { text-indent: 2em; }
-
+.tab { text-indent: 3em; }
+.paratab ( padding-left: 3em; )
 body {
-  background: #333333;
+  background: #222222;
   margin-bottom: 2rem;
   margin-right: 5rem;
   margin-left: 5rem;
