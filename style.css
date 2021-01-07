@@ -1,3 +1,10 @@
+body {
+  background: #222222;
+  margin-bottom: 2rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
 h1, h2, h3, h6, p, ol {
   color:#eeeeee;
   font-style: normal;
@@ -8,6 +15,7 @@ h1 {
     text-align: center;
     font-weight: 900;
     font-size: 3rem;
+    line-height: 1;
 }
 
 h2, ol {
@@ -22,6 +30,7 @@ h3, p {
 }
 
 h6 {
+    text-align: center;
     font-size: 1rem;
     font-weight: 400;
 }
@@ -32,9 +41,3 @@ strong {
 
 .tab { text-indent: 3em; }
 .paratab ( padding-left: 3em; )
-body {
-  background: #222222;
-  margin-bottom: 2rem;
-  margin-right: 5rem;
-  margin-left: 5rem;
-}
