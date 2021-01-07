@@ -21,3 +21,5 @@ p {
 strong {
   font-weight: 900;
 }
+
+.tab { text-indent: 3em; }
