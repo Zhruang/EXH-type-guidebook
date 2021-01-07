@@ -1,18 +1,15 @@
 
-
-
-font-style: normal;
 h1 {
-    
-    padding-top: 10px;
     font-family: source-han-serif-sc, serif;
-    color:#cccccc;
+    color:#334433;
     text-align: center;
     font-weight: 900;
+    font-style: normal;
 }
 
 p {
     font-family: source-han-serif-sc, serif;
-    color:#cccccc;
+    color:#223344;
     font-weight: 500;
+    font-style: normal;
 }
