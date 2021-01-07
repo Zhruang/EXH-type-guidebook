@@ -1,19 +1,24 @@
-h1, p, ol {
+h1, h2, p, ol {
   color:#eeeeee;
   font-style: normal;
+  font-family: source-han-serif-sc, serif;
 }
 
 h1 {
-    font-family: source-han-serif-sc, serif;
     text-align: center;
     font-weight: 900;
     font-size: 3em;
 }
 
-p,ol {
-    font-family: source-han-serif-sc, serif;
+h2, ol {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+p {
     font-weight: 500;
     font-size: 1.5em;
+    line-height: 1.5;
 }
 
 strong {
