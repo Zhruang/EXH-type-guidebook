@@ -3,6 +3,7 @@
   --body-color: #cccccc;
   --third-color: #eeeeee;
   --body-text-size: 12pt;
+  --sub-title-text-size: 18pt;
   --bigtitle-text-size: 28pt;
   --weight-regular: 400;
   --weight-bold: 700;
@@ -12,9 +13,9 @@
 body {
   max-width: 1920px;
   background-color: var(--background-color) ;
-  margin-bottom: 7.5rem;
-  margin-right: 3rem;
-  margin-left: 3rem;
+  margin-bottom: calc(4 * var(--body-text-size))
+  margin-right: calc(2 * var(--body-text-size));
+  margin-left: calc(2 * var(--body-text-size));
 }
 
 h2, h3, h6, p, ol {
@@ -31,7 +32,7 @@ h1 {
 
 h2, ol {
     font-weight: var(--weight-bold);
-    font-size: 18pt;
+    font-size: var(--sub-title-text-size);
 }
 
 h3, h6, p {
