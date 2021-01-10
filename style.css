@@ -1,25 +1,23 @@
 :root {
-  --background-color: #161616;
-  --body-color: #cccccc;
-  --third-color: #eeeeee;
-  --body-text-size: 12pt;
-  --sub-title-text-size: 18pt;
+  --background-color: #e0e0e0;
+  --body-color: #222222;
+  --third-color: #111111;
+  --body-text-size: 16pt;
+  --petit-title-text-size: 18pt;
+  --sub-title-text-size: 21pt;
   --bigtitle-text-size: 28pt;
-  --weight-regular: 400;
-  --weight-bold: 700;
+  --weight-regular: 500;
+  --weight-bold: 900;
   font-family: source-han-serif-sc, serif;
 }
 
 body {
-  max-width: 1920px;
+  max-width: 640pt;
+  margin: auto;
   background-color: var(--background-color) ;
-  margin-bottom: calc(4 * var(--body-text-size))
-  margin-right: calc(2 * var(--body-text-size));
-  margin-left: calc(2 * var(--body-text-size));
-}
-
-h2, h3, h6, p, ol {
-  color: var(--body-color);
+  padding-bottom: calc(4 * var(--body-text-size));
+  padding-right: calc(2 * var(--body-text-size));
+  padding-left: calc(2 * var(--body-text-size));
 }
 
 h1 {
@@ -30,27 +28,52 @@ h1 {
     text-align: center;
 }
 
-h2, ol {
-    font-weight: var(--weight-bold);
+h2 {
+    color: var(--third-color);
     font-size: var(--sub-title-text-size);
+    font-weight: var(--weight-bold);
 }
 
-h3, h6, p {
-    font-weight: var(--weight-regular);
+h3 {
+    color: var(--third-color);
+    font-weight: var(--weight-bold);
+    font-size: var(--petit-title-text-size);
+}
+
+h4 {
+    color: var(--third-color);
     font-size: var(--body-text-size);
+    font-weight: var(--weight-regular);
 }
 
 p {
-    text-indent: calc( 2 * var(--body-text-size));
+    color: var(--body-color);
+    font-weight: var(--weight-regular);
+    font-size: var(--body-text-size);
+    letter-spacing: 0;
+    line-height: 1.8;
+    /* text-indent: calc( 2 * var(--body-text-size));
+    margin: calc( 0 - var(--body-text-size)); */
+}
+
+li {
+    color: var(--body-color);
+    font-weight: var(--weight-regular);
+    font-size: var(--body-text-size);
+    letter-spacing: 0;
     margin: calc( 0 - var(--body-text-size));
 }
 
 h6 {
+    color: var(--body-color);
+    font-size: var(--body-text-size);
+    font-weight: var(--weight-regular);
     text-align: center;
     margin: calc( 0 - var(--body-text-size));
 }
+
 strong {
+  color: var(--third-color);
   font-family: source-han-serif-sc, serif;
   font-weight: var(--weight-bold);
-  color: var(--third-color);
 }
