@@ -55,7 +55,7 @@ p {
     line-height: 1.8;
 }
 
-li {
+a, li {
     color: var(--Bodycolor);
     font-weight: var(--WeightR);
     font-size: var(--BodyTextSize);
