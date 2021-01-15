@@ -2,7 +2,7 @@
   --BackgroundColor: #e0e0e0;
   --Bodycolor: #252525;
   --AmpColor: #000000;
-  --BaseUnit: 1.4rem;
+  --BaseUnit: 1rem;
   --BodyTextSize: calc( 1.2 * var(--BaseUnit));
   --PetitTitleSize: calc( 1.5 * var(--BaseUnit));
   --SubTitleSize: calc( 2 * var(--BaseUnit));
