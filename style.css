@@ -2,23 +2,24 @@
   --BackgroundColor: #e0e0e0;
   --Bodycolor: #252525;
   --AmpColor: #000000;
-  --BaseUnit: 1rem;
-  --BodyTextSize: calc( 1.1 * var(--BaseUnit));
-  --PetitTitleSize: calc( 1.25 * var(--BaseUnit));
+  --BaseUnit: 16px;
+  --BodyTextSize: calc( 1 * var(--BaseUnit));
+  --PetitTitleSize: calc( 1.2 * var(--BaseUnit));
   --SubTitleSize: calc( 1.5 * var(--BaseUnit));
-  --BigTitleSize: calc( 1.8 * var(--BaseUnit));
-  --WeightR: 500;
+  --BigTitleSize: calc( 1.75 * var(--BaseUnit));
+  --WeightR: 400;
   --WeightB: 700;
   font-family: source-han-serif-sc, serif;
 }
 
 body {
-  max-width: calc( 40 * var(--BodyTextSize));
+  max-width: calc( 32 * var(--BodyTextSize));
   margin: auto;
   background-color: var(--BackgroundColor) ;
-  padding-bottom: calc(4 * var(--BodyTextSize));
-  padding-right: var(--BodyTextSize);
-  padding-left: var(--BodyTextSize);
+  padding-bottom: calc(2 * var(--BodyTextSize));
+  padding-left: 11.5px;
+  padding-right: 11.5px;
+  line-height: 1.75;
 }
 
 h1 {
@@ -52,10 +53,10 @@ p {
     font-weight: var(--WeightR);
     font-size: var(--BodyTextSize);
     letter-spacing: 0;
-    line-height: 1.8;
 }
 
 a, li {
+    list-style-type: square;
     color: var(--Bodycolor);
     font-weight: var(--WeightR);
     font-size: var(--BodyTextSize);
