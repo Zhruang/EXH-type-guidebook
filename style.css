@@ -6,9 +6,9 @@
   --BodyTextSize: calc( 1.1 * var(--BaseUnit));
   --PetitTitleSize: calc( 1.25 * var(--BaseUnit));
   --SubTitleSize: calc( 1.5 * var(--BaseUnit));
-  --BigTitleSize: calc( 2 * var(--BaseUnit));
+  --BigTitleSize: calc( 1.8 * var(--BaseUnit));
   --WeightR: 500;
-  --WeightB: 900;
+  --WeightB: 700;
   font-family: source-han-serif-sc, serif;
 }
 
