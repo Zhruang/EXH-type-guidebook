@@ -13,6 +13,8 @@
   font-family: source-han-serif-sc, serif;
 }
 
+
+
 body {
   max-width: calc( 32 * var(--BodyTextSize));
   margin: auto;
@@ -53,7 +55,6 @@ p {
     color: var(--Bodycolor);
     font-weight: var(--WeightR);
     font-size: var(--BodyTextSize);
-    letter-spacing: 0;
 }
 
 a, li {
@@ -76,4 +77,11 @@ h6 {
 strong {
   color: var(--BoldColor);
   font-weight: var(--WeightB);
+}
+
+
+.Author {
+    color: var(--BoldColor);
+    text-align: center;
+    font-weight: var(--WeightB);
 }
