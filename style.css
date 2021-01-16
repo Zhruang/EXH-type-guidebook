@@ -1,7 +1,8 @@
 :root {
-  --BackgroundColor: #e0e0e0;
-  --Bodycolor: #252525;
+  --BackgroundColor: #fdfdfd;
+  --Bodycolor: #353535;
   --AmpColor: #000000;
+  --BoldColor: #000000;
   --BaseUnit: 16px;
   --BodyTextSize: calc( 1 * var(--BaseUnit));
   --PetitTitleSize: calc( 1.2 * var(--BaseUnit));
@@ -73,6 +74,6 @@ h6 {
 }
 
 strong {
-  color: var(--AmpColor);
+  color: var(--BoldColor);
   font-weight: var(--WeightB);
 }
