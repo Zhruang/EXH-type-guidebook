@@ -3,6 +3,7 @@
   --Bodycolor: #2f2f2f;
   --AmpColor: #000000;
   --BoldColor: #000000;
+  --NavColor: #111;
   --BaseUnit: 16px;
   --BodyTextSize: calc( 1 * var(--BaseUnit));
   --PetitTitleSize: calc( 1.2 * var(--BaseUnit));
@@ -15,7 +16,7 @@
 
 
 
-body {
+.main {
   max-width: calc( 32 * var(--BodyTextSize));
   margin: auto;
   background-color: var(--BackgroundColor) ;
@@ -85,3 +86,40 @@ strong {
     text-align: center;
     font-weight: var(--WeightB);
 }
+/*
+.sidenav {
+  width: 0;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: var(--BaseUnit);
+  left: var(--BaseUnit);
+  background-color: var(--NavColor);
+  overflow-x: hidden;
+  padding: 0px 0;
+  transition: 0s;
+
+}
+
+.sidenav a {
+  padding: 0px 0px calc(var(--BaseUnit)/2) 0px;
+  text-decoration: none;
+  font-size: var(--BodyTextSize);
+  color: #fdfdfd;
+  display: block;
+  line-height: 1.8;
+  transition: 0;
+}
+
+.sidenav a:hover {
+  text-decoration: underline;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+*/

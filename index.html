@@ -18,15 +18,28 @@
   <link rel="stylesheet" type="text/css" href="./style.css">
 
 </head>
-<body><h1>展览文字格式与排版指南</h1>
+<body>
+<!--
+<div id= "sidenav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#chp1">1 绪论</a>
+  <a href="#chp2">2 基本规则</a>
+  <a href="#chp2.1">2.1 字体的中西搭配</a>
+  <a href="#chp3">3 展览文字元素排版规则</a>
+  <a href="#chp4">4 参考资料与扩展阅读</a>
+</div>
+-->
+<div id= "main" class="main">
+<h1>展览文字格式与排版指南</h1>
 <p class= "Author">郑儒阳</p>
+<!--<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776</span>-->
 <hr />
-<h2>1 绪论</h2>
+<h2 id="chp1">1 绪论</h2>
 <p>相比西方世界的众多博物馆等大型艺术机构，中国的艺术机构在整理并展示展览中的所出现的各式辅助性文字信息——不限于展签（caption）、上墙文字（wall text）等——方面时常缺乏科学并规范的设计。这一问题在「意求国际化」的艺术机构中因其对多语种文字支持的需求而被放大。由于西方艺术作品的引进以及出于以英语为母语的观众的考虑，在美术馆等机构设计展览的辅助性文字信息时通常会涉及<strong>中西混并排</strong>的情境。这种在方块字与拉丁语系字母之间所进行的必要调和的需求，使得排版与格式规范上的挑战要大于大部分只需关注单一语言或同为拉丁语系的语言的西方艺术机构。</p>
 <p>因此，此指南意为探讨如何规范一个简体中文世界里的国际化艺术机构里的各式展览辅助性文字信息的格式与排版。除去对一些最基本的规则的介绍外，此指南属于「指导性文档」，更多的是提供一种思考与探讨的方向，具体在各处的实践应因地制宜。但一致的目标一定是，在一个生态的内部实现——用户友好的（audience-friendly）、系统的、统一的设计与规范。</p>
 <p>中西平等-》合理？</p>
-<h2>2 基本规则</h2>
-<h3>2.1 字体的中西搭配</h3>
+<h2 id="chp2">2 基本规则</h2>
+<h3 id="chp2.1">2.1 字体的中西搭配</h3>
 <p>在中西混并排中，放弃中文字体自带的西文字体而转向搭配一款单独的西文字体是非常普遍的做法。原因有很多，一是许多老一代的中文字体附带的西文字体质量差强人意；二是中文字体附带的西文不会包括在西文排版中非常常用的意大利斜体（italic）；三是大家终究希望有自己选择对应每一文种的字体的自由。这样的做法虽理论上更加合理，但在实际使用时有相当多细节需要关注，否则反而会造成排版的不协调与不统一。近年发布的中文字体，附带西文字体的质量也越来越高，许多还专门为了与方块汉字搭配而做了额外的调整。所以若不愿意花大功夫去做字体匹配的话，直接使用此类字体，如思源黑体、蒙纳翔鹤黑体、方正悠宋等，也是一种更稳妥的选择。</p>
 <p>接下来便主要讨论，如果最终选择中西文使用单独的字体进行拼配的话，应在哪些方面加以关注，并必要时做出调整。</p>
 <h4>2.1.1 字体风格匹配</h4>
@@ -74,7 +87,7 @@
 <p>传统出版 1/4 em，苹果 1/8 em </p>
 <h4>中文标点挤压</h4>
 <p>全宽式/开明式</p>
-<h2>3. 展览文字元素排版规则</h2>
+<h2 id="chp3">3 展览文字元素排版规则</h2>
 <h3>3.1 展签</h3>
 <h4>3.1.1 基本讨论</h4>
 <h4>3.1.2 案例分析</h4>
@@ -82,7 +95,7 @@
 <h3>3.3 展讯墙</h3>
 <h3>3.4 其他</h3>
 <p>&nbsp;</p>
-<h2>4. 参考资料与扩展阅读</h2>
+<h2 id="chp4">4 参考资料与扩展阅读</h2>
 <p>（引用格式没有遵守特定的引用规范。）</p>
 <ul>
 <li>小林章. 西文字体 1 &amp; 2. 脸谱出版社, 2015</li>
@@ -96,5 +109,19 @@
 <li><a href='https://www.getty.edu/education/museum_educators/downloads/aaim_completeguide.pdf'>QUICK GUIDE TO ADULT AUDIENCE INTERPRETIVE MATERIALS: GALLERY TEXTS AND GRAPHICS</a></li>
 
 </ul>
+</div>
+
+<script>/*
+function openNav() {
+  document.getElementById("sidenav").style.width = "200px";
+  document.getElementById("sidenav").style.backgroundColor = "#111";
+}
+
+function closeNav() {
+  document.getElementById("sidenav").style.width = "0";
+  document.getElementById("sidenav").style.backgroundColor = "#fdfdfd";
+}*/
+</script>
+
 </body>
 </html>
